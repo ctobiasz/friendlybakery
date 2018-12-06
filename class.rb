@@ -1,6 +1,6 @@
 DANKCOOKIES = []
-DANKMUFFIN = []
-DANKCAKE = []
+DANKMUFFINS = []
+DANKCAKES = []
 
 
 class Cookie
@@ -10,6 +10,7 @@ class Cookie
     @name = name
     @price = price
     @description = description
+    @quantity = quanity
     DANKCOOKIES << self
  end
 end
@@ -21,7 +22,8 @@ end
      @name = name
      @price = price
      @description = description
-     DANKMUFFIN << self
+     @quantity = quanity
+     DANKMUFFINS << self
  end
 end
 
@@ -32,6 +34,7 @@ class Cake
     @name = name
     @price = price
     @description = description
-    DANKCAKE << self
+    @quantity = quanity
+    DANKCAKES << self
  end
 end

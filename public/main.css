@@ -13,53 +13,30 @@
   width: 350px;
   height: 300px;
 }
-
-.navbar {
-  background-color: #231f20;
-  min-height: auto;
-  position: relative;
-  top: 0px;
-  font-size: 13px;
-  width: auto;
-  border-bottom: none;
-  margin-bottom: 0px;
-  padding: 40px 0px;
-}
-.navbar-brand {
-  padding: 0 15px;
-  height: 96px;
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
-@media (min-width: 768px) {
-  .navbar-nav {
-    position: relative;
-    right: -50%;
-  }
-  .navbar-nav > li {
-    position: relative;
-    left: -50%;
-  }
-  .navbar-nav > li a {
-    line-height: 126px;
-    vertical-align: middle;
-    padding: 0 24px;
-  }
+.navigation-list-item {
+display: inline-block;
+justify-content: center;
+list-style: none;
+font-size: 15px;
+font-weight: bold;
+padding: 15px;
+margin-right: -5px;
+
 }
 
-@media (min-width: 992px) {
-  .navbar-nav > li a {
-    padding: 0 40px;
-  }
+.logo {
+max-height: 15%;
+max-width:300px;
 }
 
-@media (min-width: 1200px) {
-  .navbar-nav > li a {
-    padding: 0 50px;
-  }
+.catestyle:hover {
+  color: rgb(245, 116, 103)
+
 }
-
-
-.starter-template {
-    padding: 40px 15px;
-    text-align: center;
-  }

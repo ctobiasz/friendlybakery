@@ -1,47 +1,78 @@
-<div class="cc">
-<img class="allcookies" src="<%= @chocolatechip.image %>"> </img>
-<h1><%= @chocolatechip.name  %></h1>
-<p><%= @chocolatechip.price  %></p>
-<p><%= @chocolatechip.description  %></p>
-<p><%= @chocolatechip.quantity  %></p>
+<!--
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+<% DANKCOOKIES.each do |cookie| %>
+<img class="allcookies" src="<%= cookie.image %>" />
+<h1><%= cookie.name%></h1>
+<p><%= cookie.price  %></p>
+<p><%= cookie.description  %></p>
+<p><%= cookie.quantity  %></p>
 </div>
 
-<div class="cc">
-<img class="allcookies" src="<%= @chocolatemint.image %>"> </img>
-<h1><%= @chocolatemint.name  %></h1>
-<p><%= @chocolatemint.price  %></p>
-<p><%= @chocolatemint.description  %></p>
-<p><%= @chocolatemint.quantity  %></p>
+   </div>
+</div>
+<% end %> -->
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+
+<div class="col-lg-4">
+  <img class="allcookies" src="<%= @chocolatechip.image %>" />
+  <h2><%= @chocolatechip.name%></h2>
+  <h3><%= @chocolatechip.price  %></h3>
+  <p><%= @chocolatechip.description  %></p>
+  <p><%= @chocolatechip.quantity  %></p>
 </div>
 
-<div class="cc">
-<img class="allcookies" src="<%= @oatmealcran.image %>"> </img>
-<h1><%= @oatmealcran.name  %></h1>
-<p><%= @oatmealcran.price  %></p>
-<p><%= @oatmealcran.description  %></p>
-<p><%= @oatmealcran.quantity  %></p>
+<div class="col-lg-4">
+  <img class="allcookies" src="<%= @chocolatemint.image %>" />
+  <h2><%= @chocolatemint.name%></h2>
+  <h3><%= @chocolatemint.price  %></h3>
+  <p><%= @chocolatemint.description  %></p>
+  <p><%= @chocolatemint.quantity  %></p>
 </div>
 
-<div class="cc">
-<img class="allcookies" src="<%= @chriskushcookie.image %>"> </img>
-<h1><%= @chriskushcookie.name  %></h1>
-<p><%= @chriskushcookie.price  %></p>
-<p><%= @chriskushcookie.description  %></p>
-<p><%= @chriskushcookie.quantity  %></p>
+<div class="col-lg-4">
+  <img class="allcookies" src="<%= @chriskushcookie.image %>" />
+  <h2><%= @chriskushcookie.name%></h2>
+  <h3><%= @chriskushcookie.price  %></h3>
+  <p><%= @chriskushcookie.description  %></p>
+  <p><%= @chriskushcookie.quantity  %></p>
 </div>
 
-<div class="cc">
-<img class="allcookies" src="<%= @gingerbread.image %>"> </img>
-<h1><%= @gingerbread.name  %></h1>
-<p><%= @gingerbread.price  %></p>
-<p><%= @gingerbread.description  %></p>
-<p><%= @gingerbread.quantity  %></p>
 </div>
 
-<div class="cc">
-<img class="allcookies" src="<%= @sugarcookie.image %>"> </img>
-<h1><%= @sugarcookie.name  %></h1>
-<p><%= @sugarcookie.price  %></p>
-<p><%= @sugarcookie.description  %></p>
-<p><%= @sugarcookie.quantity  %></p>
+
+<div class="row">
+<div class="col-lg-4">
+  <img class="allcookies" src="<%= @oatmealcran.image %>" />
+  <h2><%= @oatmealcran.name%></h2>
+  <h3><%= @oatmealcran.price  %></h3>
+  <p><%= @oatmealcran.description  %></p>
+  <p><%= @oatmealcran.quantity  %></p>
+</div>
+<div class="col-lg-4">
+  <img class="allcookies" src="<%= @gingerbread.image %>" />
+  <h2><%= @gingerbread.name%></h2>
+  <h3><%= @gingerbread.price  %></h3>
+  <p><%= @gingerbread.description  %></p>
+  <p><%= @gingerbread.quantity  %></p>
+</div>
+
+<div class="col-lg-4">
+  <img class="allcookies" src="<%= @sugarcookie.image %>" />
+  <h2><%= @sugarcookie.name%></h2>
+  <h3><%= @sugarcookie.price  %></h3>
+  <p><%= @sugarcookie.description  %></p>
+  <p><%= @sugarcookie.quantity  %></p>
+</div>
+</div>
 </div>

@@ -1,0 +1,41 @@
+<!-- <div class="cc">
+</div>
+<% DANKCAKES.each do |cake| %>
+<img class="allcakes" src="<%= cake.image %>" />
+<h1><%= cake.name%></h1>
+<p><%= cake.price  %></p>
+<p><%= cake.description  %></p>
+<p><%= cake.quantity  %></p>
+</div>
+<% end %> -->
+
+
+<div class="container">
+  <div class="row">
+
+<div class="col-lg-4">
+  <img class="allcakes" src="<%= @chocolatecake.image %>" />
+  <h2><%= @chocolatecake.name %></h2>
+  <h3><%= @chocolatecake.price  %></h3>
+  <p><%= @chocolatecake.description  %></p>
+  <p><%= @chocolatecake.quantity  %></p>
+</div>
+
+<div class="col-lg-4">
+  <img class="allcakes" src="<%= @oreo.image %>" />
+  <h2><%= @oreo.name %></h2>
+  <h3><%= @oreo.price  %></h3>
+  <p><%= @oreo.description  %></p>
+  <p><%= @oreo.quantity  %></p>
+</div>
+
+<div class="col-lg-4">
+  <img class="allcakes" src="<%= @redvelvet.image %>" />
+  <h2><%= @redvelvet.name %></h2>
+  <h3><%= @redvelvet.price  %></h3>
+  <p><%= @redvelvet.description  %></p>
+  <p><%= @redvelvet.quantity  %></p>
+</div>
+
+</div>
+</div>
