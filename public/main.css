@@ -13,11 +13,27 @@
   width: 350px;
   height: 300px;
 }
+
+
+#mastercontainer{
+  box-sizing: border-box;
+    //display: block;
+
+    height: 100%;
+    margin-left:  350px;
+    margin-right:  350px;
+    background-color: #FFF1AE;
+    box-shadow: 0px 3px 5px 5px rgba(240, 240, 240, 0.75);
+}
+
 .navigation {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
+  margin-top: -90px;
+  background-color: #FFF1AE;
+
 }
 
 .navigation-list-item {
@@ -39,4 +55,44 @@ max-width:300px;
 .catestyle:hover {
   color: rgb(245, 116, 103)
 
+}
+
+
+element.style {
+dl, ol, ul {
+}
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 49px;
+  }
+
+.caropics {
+  height: 450px;
+  width: 800px;
+  border: 1px solid black;
+  box-shadow: 0px 3px 5px 5px rgba(215, 215, 215, 0.75);
+}
+
+.carousel-inner {
+  padding-bottom: 30px;
+}
+.carousel-control-prev {
+    left: 430px;
+}
+.carousel-control-next {
+    left: 1200px;
+}
+
+
+
+/* TEXT CSS FOR ALL */
+body {
+  background-color: white;
+}
+
+
+
+/* TEXT CSS FOR ALL */
+#homep {
+  font-family: 'Charmonman', cursive;
 }
