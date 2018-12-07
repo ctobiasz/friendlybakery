@@ -6,6 +6,7 @@
     <title>Friendly Bakery</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
   </head>
 
@@ -17,16 +18,55 @@
                   <li class="navigation-list-item"><a href="/" class="catestyle">Home</a></li>
                   <li class="navigation-list-item"><a href="aboutus" class="catestyle">About Us</a></li>
                   <li class="navigation-list-item"><a href="findus" class="catestyle">Find Us</a></li>
-                  <li class="navigation-list-item"><a href="/"><img class="logo" src="/images/cupcakeinvis.png"></a></li>
+                  <a href="/"><img class="logo img-fluid" src="/images/cupcakeinvis.png"></a>
                   <li class="navigation-list-item"><a href="cookies" class="catestyle">Cookies</a></li>
                   <li class="navigation-list-item"><a href="cakes" class="catestyle">Cakes</a></li>
                   <li class="navigation-list-item"><a href="muffins" class="catestyle">Muffins</a></li>
               </ul>
           </nav>
 
+          <%= yield %>
+          <!-- Footer starts here -->
+          <footer id="myFooter">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-sm-4 myCols">
+                              <h5>Our History</h5>
+                              <ul>
+                                  <li><a href="#">Home</a></li>
+                                  <li><a href="#">About Us</a></li>
+                                  <li><a href="#">Find Us</a></li>
+                              </ul>
+                          </div>
+                          <div class="col-sm-4 myCols">
+                              <h5>Newsletter</h5>
+                            <form method="post">
+                              Email:
+                              <input type="email" name="email" value="">
+                              <input type="submit" name="submit" value="Submit" />
+                            </form>
+                          </div>
+                          <div class="col-sm- myCols">
+                              <h5>Our Products</h5>
+                              <ul>
+                                  <li><a href="#">Cookies</a></li>
+                                  <li><a href="#">Cakes</a></li>
+                                  <li><a href="#">Muffins</a></li>
+                              </ul>
+                          </div>
 
 
-<%= yield %>
+                      </div>
+                  </div>
+                  <div class="social-networks">
+                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="#" class="facebook"><i class="fa fa-facebook-official"></i></a>
+                      <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                  </div>
+              </footer>
+
+
+
 <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script> -->
 

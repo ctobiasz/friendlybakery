@@ -1,9 +1,18 @@
 require 'sinatra'
 require './class.rb'
+require './send.rb'
 
-
+def email(recipient)
+Newsletter.welcome(recipient).deliver_now
+end
 
 get "/" do
+  erb :home
+end
+
+post "/" do
+  recipient = params['email']
+  email(recipient)
   erb :home
 end
 
@@ -11,13 +20,31 @@ get "/aboutus" do
   erb :aboutus
 end
 
+post "/aboutus" do
+  recipient = params['email']
+  email(recipient)
+  erb :aboutus
+end
+
 get "/contact" do
+  erb :contact
+end
+
+post "/contact" do
+  recipient = params['email']
+  email(recipient)
   erb :contact
 end
 
 get "/findus" do
   erb :findus
 
+end
+
+post "/findus" do
+  recipient = params['email']
+  email(recipient)
+  erb :findus
 end
 
 get "/cookies" do

@@ -22,7 +22,7 @@
     height: 100%;
     margin-left:  350px;
     margin-right:  350px;
-    background-color: #FFF1AE;
+    background-color: #f4f1bf;
     box-shadow: 0px 3px 5px 5px rgba(240, 240, 240, 0.75);
 }
 
@@ -30,9 +30,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  margin-top: -90px;
+  padding-left: 23%;
+  margin-top: 0px;
   background-color: #FFF1AE;
+  height: 85px;
 
 }
 
@@ -47,9 +48,9 @@ margin-right: -5px;
 
 }
 
-.logo {
-max-height: 15%;
-max-width:300px;
+.img-fluid {
+    max-width: 15%;
+    height: auto;
 }
 
 .catestyle:hover {
@@ -71,17 +72,86 @@ dl, ol, ul {
   width: 800px;
   border: 1px solid black;
   box-shadow: 0px 3px 5px 5px rgba(215, 215, 215, 0.75);
+  margin-top:30px;
 }
 
 .carousel-inner {
   padding-bottom: 30px;
 }
 .carousel-control-prev {
-    left: 430px;
+    left: 130px;
 }
 .carousel-control-next {
     left: 1200px;
 }
+/* FINDUS */
+#locationpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  display: flex;
+  float: center;
+  /* border: 1px solid black; */
+  box-shadow: 0px 3px 5px 5px rgba(208, 178, 178, 0.75)
+
+}
+
+/* ABOUT US */
+.bakersPP {
+  height: 250px;
+  width: 300px;
+  border: 1px solid black;
+  box-shadow: 0px 3px 5px 5px rgba(66, 62, 62, 0.75)
+}
+
+#aboutus {
+  text-align: center;
+  font-family: 'Charmonman', cursive;
+  font-size: 3em;
+  margin-top: 20px;
+}
+#aboutp {
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  border:5px solid rgb(221, 191, 191);
+}
+.workersstuff {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  }
+
+.abouth4 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* COOKIE CSS */
+.chocomint {
+  font-family: 'Charmonman', cursive;
+  font-size: 2em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cookiePPP {
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.prypry {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  border: 1px solid rgb(53, 124, 104)
+}
+.productstuff {
+  border: 1px dotted rgb(53, 124, 104)
+}
+
 
 
 
@@ -90,9 +160,100 @@ body {
   background-color: white;
 }
 
-
-
-/* TEXT CSS FOR ALL */
-#homep {
+/* TEXT CSS FOR HEADER */
+#headerhome {
+font-family: 'Charmonman', cursive;
+font-size: 2em;
+}
+#locationhome {
   font-family: 'Charmonman', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+#homep {
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  border:5px double white;
+}
+
+
+
+/* All things footer */
+#myFooter {
+	background-color: #e08986;
+	color:white;
+  margin-top: 50px;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
 }
