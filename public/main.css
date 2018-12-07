@@ -79,10 +79,10 @@ dl, ol, ul {
   padding-bottom: 30px;
 }
 .carousel-control-prev {
-    left: 130px;
+    left: 125px;
 }
 .carousel-control-next {
-    left: 1200px;
+    left: 902px;
 }
 /* FINDUS */
 #locationpic {
@@ -109,6 +109,7 @@ dl, ol, ul {
   font-family: 'Charmonman', cursive;
   font-size: 3em;
   margin-top: 20px;
+  text-decoration: underline;
 }
 #aboutp {
   margin-top: 30px;
@@ -136,6 +137,7 @@ dl, ol, ul {
   font-size: 2em;
   margin-top: 20px;
   text-align: center;
+  border-bottom: 1px solid black;
 }
 
 .cookiePPP {
@@ -150,6 +152,12 @@ dl, ol, ul {
 }
 .productstuff {
   border: 1px dotted rgb(53, 124, 104)
+}
+
+.btt {
+  background-color: #a46969;
+  color: white;
+  border-radius: 20px;
 }
 
 
@@ -169,6 +177,7 @@ font-size: 2em;
   font-family: 'Charmonman', cursive;
   font-size: 2em;
   text-align: center;
+  text-decoration: underline;
 }
 
 
