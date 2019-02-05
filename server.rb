@@ -95,5 +95,3 @@
 
     erb :muffins
   end
-
-  app.listen(process.env.PORT || 3000);
