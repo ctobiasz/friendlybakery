@@ -1,5 +1,4 @@
 # Friendly Bakery
- [Glance](https://i.giphy.com/m9YTyiOopeuqtec4XB.gif)
 
 # Descripton
 
