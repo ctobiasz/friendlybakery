@@ -1,4 +1,5 @@
 # Friendly Bakery
+ [Glance](https://i.giphy.com/m9YTyiOopeuqtec4XB.gif)
 
 # Descripton
 
@@ -8,6 +9,6 @@
 
 > I wanted the colors to not overwhelm the user. As for the navigation throughout the website I wanted it to be as simple as possible.
 
-# LANGUAGES & Frameworks
+# Languages & Frameworks
 
 > This was made with Ruby and Sinatra!
