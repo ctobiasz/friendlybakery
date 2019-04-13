@@ -8,6 +8,6 @@
 
 > I wanted the colors to not overwhelm the user. As for the navigation throughout the website I wanted it to be as simple as possible.
 
-# Languages & Frameworks
+# Technologies Used
 
 > This was made with Ruby and Sinatra!
