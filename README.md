@@ -1,4 +1,5 @@
 # Friendly Bakery
+![Bakery Main-page](https://www.christobiasz.com/images/friendlybakery.png)
 
 # Descripton
 
